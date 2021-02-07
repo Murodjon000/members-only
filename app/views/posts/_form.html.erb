@@ -1,0 +1,19 @@
+<%= form_with(model: @post) do |f| %>
+  <% if @post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
+
+      <ul>
+        <% @post.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :post %>
+    <%= f.text_area :post, class:"form-control", placeholder: "Compose new post..."  %>
+  </div>
+    <%= f.button :submit, class: "btn btn-primary btn__submit" %>
+<% end %>
