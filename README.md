@@ -26,6 +26,11 @@ In this project, I built an exclusive clubhouse where  members can write anonymo
 - Twitter: [@MurodjonTursun5](https://twitter.com/MurodjonTursun5)
 - Linkedin: [@Murodjon Tursunpulatov](https://www.linkedin.com/in/murodjon-tursunpulatov-5189481b3/)
 
+👤 **Abigael Nyangasi**
+- Github: [@IjayAbby](https://github.com/IjayAbby)
+- Twitter: [@Ijay_js](https://twitter.com/Ijay_js)
+- Linkedin: [linkedin Abigael Nyangasi](https://www.linkedin.com/in/ijayabby4/)
+
 ## Contributing
 
 - Fork the project
