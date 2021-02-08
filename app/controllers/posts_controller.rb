@@ -10,6 +10,7 @@ class PostsController < ApplicationController
 
   # GET /posts/1 or /posts/1.json
   def show
+    # show
   end
 
   # GET /posts/new
@@ -19,6 +20,7 @@ class PostsController < ApplicationController
 
   # GET /posts/1/edit
   def edit
+    # show
   end
 
   # POST /posts or /posts.json
