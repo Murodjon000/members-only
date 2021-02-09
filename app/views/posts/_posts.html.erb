@@ -15,19 +15,7 @@
                       
                         </div>
                 <% end %>
-                <% if user_signed_in? && current_user.id == post.user_id %>
-                 		<div class="icon__box">
-  			        		<%= link_to post  do %>
-  					          <span class="icon"><i class="fa fa-link" aria-hidden="true"></i></span>
-  					        <% end %>
-  					        <%= link_to edit_post_path(post) do %>
-  					          <span class="icon"><i class="fa fa-pencil" aria-hidden="true"></i></span>
-  					        <% end %>
-  					        <%= link_to post, method: :delete, data: { confirm: "Are you sure you want to delete this post?" } do %>
-  					        	<span class="icon"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
-  					        <% end %>
-  			        	</div>
-                <% end %>
+                
                 <hr>
             </div>
         </div>
